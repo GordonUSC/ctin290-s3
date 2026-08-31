@@ -1,0 +1,250 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Otl Aicher, Munich 1972. Strict grid, one thing per cell, mono labels, thin rules.
+   The palette is defined by what it excludes: no red, no true black. Committed to a
+   light ground on purpose, because this is projected in a lit room. */
+:root{
+  --paper:#FAFAF8; --ink:#16181A; --ink2:#4A5054; --rule:#C9CCC9; --fill:#EFF0EE;
+  --blue:#2E7FC2; --green:#5EA654; --violet:#7E5AA2; --orange:#E08A2E; --silver:#B9BDBA;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+ font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5}
+.wrap{max-width:1360px;margin:0 auto;padding:40px 38px 96px}
+.lbl{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.22em;
+ text-transform:uppercase;color:var(--ink2)}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:26px;
+ border-bottom:4px solid var(--ink);padding-bottom:15px;flex-wrap:wrap}
+.mast h1{margin:6px 0 0;font-size:58px;line-height:.98;font-weight:700;letter-spacing:-.035em;
+ text-wrap:balance}
+.mast .rt{text-align:right}
+.sub{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--rule);margin-bottom:34px}
+.sub div{padding:12px 26px 12px 0;margin-right:26px;border-right:1px solid var(--rule)}
+.sub div:last-child{border-right:0;margin-right:0}
+.sub b{display:block;font-size:25px;font-weight:700;letter-spacing:-.02em;line-height:1.15}
+.nav{display:flex;gap:10px;margin:26px 0 0;flex-wrap:wrap}
+.nav a{display:inline-block;padding:10px 20px;border:2px solid var(--ink);text-decoration:none;
+ color:var(--ink);font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.18em;
+ text-transform:uppercase;background:var(--paper)}
+.nav a.here{background:var(--ink);color:var(--paper)}
+.nav a:hover,.nav a:focus-visible{background:var(--blue);border-color:var(--blue);color:#fff}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+a{color:var(--blue)}
+.note{background:var(--fill);border-left:6px solid var(--orange);padding:17px 22px;margin:32px 0 0}
+.note p{margin:0 0 9px;font-size:18px}.note p:last-child{margin:0}
+.foot{margin-top:52px;border-top:1px solid var(--rule);padding-top:17px;font-size:16px;color:var(--ink2)}
+.foot p{margin:0 0 7px}
+@media print{.nav{display:none}body{font-size:12pt}.wrap{padding:0}}
+</style>
+<title>Session 3 Key Terms</title>
+<style>
+h2.sec{margin:52px 0 0;font-size:15px;font-family:"IBM Plex Mono",monospace;letter-spacing:.22em;
+ text-transform:uppercase;font-weight:600;border-bottom:3px solid var(--ink);padding-bottom:11px}
+h2.sec span{float:right;letter-spacing:.06em;color:var(--ink2);font-weight:400;text-transform:none}
+.term{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:28px 0;
+ border-bottom:1px solid var(--rule);align-items:start}
+.n{font-family:"IBM Plex Mono",monospace;font-size:40px;font-weight:600;line-height:1;
+ color:var(--green);font-variant-numeric:tabular-nums}
+.term h2{margin:0 0 10px;font-size:40px;line-height:1.04;font-weight:700;letter-spacing:-.035em}
+.def{margin:0 0 14px;font-size:23px;line-height:1.4;max-width:56ch}
+.more{margin:0 0 14px;font-size:18px;line-height:1.55;color:var(--ink2);max-width:64ch;
+ border-left:3px solid var(--rule);padding-left:16px}
+.flag{margin:0 0 14px;font-size:17px;line-height:1.5;max-width:64ch;background:#FBF2E4;
+ border-left:6px solid var(--orange);padding:13px 17px}
+.rein{background:var(--fill);padding:16px 20px;max-width:70ch}
+.vid{margin:6px 0 8px;font-size:22px;font-weight:600;letter-spacing:-.015em}
+.vid a{color:var(--ink);text-decoration:none;border-bottom:3px solid var(--green)}
+.vid a:hover,.vid a:focus-visible{color:var(--green)}
+.look{margin:0 0 9px;font-size:18px;line-height:1.5;color:var(--ink2)}
+.url{margin:0;font-family:"IBM Plex Mono",monospace;font-size:12.5px;word-break:break-all}
+.fwds{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0;
+ border-top:1px solid var(--rule)}
+.fwd{padding:22px 26px 22px 0;border-right:1px solid var(--rule)}
+.fwd:last-child{border-right:0}
+.fwd h3{margin:0 0 8px;font-size:25px;font-weight:700;letter-spacing:-.02em}
+.fwd .def{font-size:17.5px;line-height:1.5;color:var(--ink2)}
+.when2{margin:0;font-size:16px}
+</style>
+<div class="wrap">
+<header class="mast">
+ <div><span class="lbl">CTIN 290 &middot; Session 3 &middot; Colour &amp; Lighting &middot; Unit 1, Seeing</span>
+  <h1>The words for<br>what you are<br>looking at</h1></div>
+ <div class="rt"><span class="lbl">Sheet 2 of 2</span></div>
+</header>
+<div class="sub">
+ <div><span class="lbl">Terms</span><b>10</b></div>
+ <div><span class="lbl">From the glossary</span><b>4</b></div>
+ <div><span class="lbl">Unpacked today</span><b>6</b></div>
+ <div><span class="lbl">Videos used</span><b>4</b></div>
+ <div><span class="lbl">Links checked</span><b>all</b></div>
+</div>
+<nav class="nav">
+<a href="index.html">Rundown</a>
+<a href="media.html">Sheet 1 &middot; Media</a>
+<a href="terms.html" class="here">Sheet 2 &middot; Terms</a>
+</nav>
+<main>
+<h2 class="sec">In the course glossary <span>These are the four the syllabus already owns for Session 3</span></h2>
+<article class="term">
+  <div class="n">01</div>
+  <div class="body">
+    <h2>Color Script</h2>
+    <p class="def">A sequence of images or notations showing the intended color palette and mood progression across a scene or film.</p>
+    <p class="more">Ralph Eggleston brought the color script to Pixar in 1992 as art director on Toy Story, working in pastel on black paper because it was fast and cheap. You can read the emotional arc of a film off its colour alone, sound off, no dialogue.</p>
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">Arcane, Official Trailer</a></p>
+      <p class="look">Piltover gold against undercity neon. The palette argues class before any dialogue does.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=fXmAurh012s</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">02</div>
+  <div class="body">
+    <h2>Palette</h2>
+    <p class="def">The selected range of colors in a shot, scene, or project; establishes mood and visual unity.</p>
+    <p class="more">A palette is a rule you set and then keep. The emotional payload arrives at the moment you break it, which is the constraint on today&#x27;s build.</p>
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">Arcane, Official Trailer</a></p>
+      <p class="look">Saturation doing emotional work, scene to scene.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=fXmAurh012s</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">03</div>
+  <div class="body">
+    <h2>Warm / Cool</h2>
+    <p class="def">Color temperature: warm colors (red, orange, yellow) feel intimate and energetic; cool colors (blue, green) feel distant and calm.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">Arcane, Official Trailer</a></p>
+      <p class="look">Temperature as allegiance. Which side of the city are you being asked to stand on.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=fXmAurh012s</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">04</div>
+  <div class="body">
+    <h2>Lighting</h2>
+    <p class="def">The quality, direction, and color of illumination. Hard vs. soft light; high-key vs. low-key; motivated vs. stylized.</p>
+    <p class="flag">CHANGED ON THIS SHEET. The glossary points this term at the Blue Lock trailer, which is a Session 6 text and is not played today. Awaken is in today&#x27;s session and is the stronger lighting example. Flagged for your call.</p>
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">Awaken, LoL Cinematic</a></p>
+      <p class="look">Emotional information sitting in the lighting and in how materials answer it, wet metal, dust, cloth, rather than in the cutting.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=zF5Ddo9JdpY</a></p>
+    </div>
+  </div>
+</article>
+<h2 class="sec">Taught today, not yet in the glossary <span>Unpacked from inside the definitions above</span></h2>
+<article class="term">
+  <div class="n">05</div>
+  <div class="body">
+    <h2>Saturation</h2>
+    <p class="def">How much pure hue a colour carries, from flat grey at one end to full intensity at the other. Independent of how light or dark it is.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8" target="_blank" rel="noopener">Coco, Official US Trailer</a></p>
+      <p class="look">The living world is muted; the Land of the Dead is saturated to the edge of comfort. Same film, two settings of one dial.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8" target="_blank" rel="noopener">https://www.youtube.com/watch?v=xlnPHQ3TLX8</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">06</div>
+  <div class="body">
+    <h2>Value</h2>
+    <p class="def">How light or dark a colour is, independent of its hue. The dimension that survives when you turn the picture greyscale.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">Arcane, Official Trailer</a></p>
+      <p class="look">Turn Zaun greyscale in your head. The class argument still reads, because it was built in value as well as in hue.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=fXmAurh012s</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">07</div>
+  <div class="body">
+    <h2>High-key / Low-key</h2>
+    <p class="def">High-key lighting is bright and evenly lit with few shadows. Low-key is dominated by shadow with small, deliberate pools of light.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">Awaken, LoL Cinematic</a></p>
+      <p class="look">Where the frame goes low-key, count what you are no longer being shown.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=zF5Ddo9JdpY</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">08</div>
+  <div class="body">
+    <h2>Motivated / Stylized light</h2>
+    <p class="def">Motivated light comes from a source you can point to inside the world. Stylized light exists because the shot needs it, and no lamp in the fiction explains it.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">Awaken, LoL Cinematic</a></p>
+      <p class="look">Find one light you can trace to a source and one you cannot. Ask what the second one is for.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=zF5Ddo9JdpY</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">09</div>
+  <div class="body">
+    <h2>Hard / Soft light</h2>
+    <p class="def">Hard light comes from a small source and gives sharp-edged shadows. Soft light comes from a large or diffused source and gives gradual ones.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">Awaken, LoL Cinematic</a></p>
+      <p class="look">Watch the shadow edges on faces and on wet metal. The edge is the tell, not the brightness.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=zF5Ddo9JdpY</a></p>
+    </div>
+  </div>
+</article>
+<article class="term">
+  <div class="n">10</div>
+  <div class="body">
+    <h2>Cultural vs. universal colour</h2>
+    <p class="def">Some colour associations are learned inside a culture rather than shared by everyone. Treating a learned association as universal is the most common failure in a mood board.</p>
+    
+    <div class="rein">
+      <span class="lbl">Reinforced by</span>
+      <p class="vid"><a href="https://www.youtube.com/watch?v=aUts14xyjHg" target="_blank" rel="noopener">Disney&#x27;s Encanto, Official Trailer</a></p>
+      <p class="look">Name one colour choice that is cultural rather than universal, and say how you know. You will be asked this about Coco in the second half.</p>
+      <p class="url"><a href="https://www.youtube.com/watch?v=aUts14xyjHg" target="_blank" rel="noopener">https://www.youtube.com/watch?v=aUts14xyjHg</a></p>
+    </div>
+  </div>
+</article>
+<h2 class="sec">Next door <span>Named today, owned by another session</span></h2>
+<div class="fwds"><article class="fwd"><h3>Tone</h3><p class="def">The emotional or stylistic mood of a work; created through every visual and sonic choice.</p><p class="when2"><span class="lbl">Session 8</span> Today is the colour half of it.</p></article><article class="fwd"><h3>Constraint</h3><p class="def">A hard limit on the palette, resolution, color depth, or geometry available to you. Constraint is not the opposite of expression, it is often the engine of it.</p><p class="when2"><span class="lbl">Session 2</span> Where Winds Meet sits here, which is why it is optional today.</p></article><article class="fwd"><h3>Blue Lock (visual)</h3><p class="def">Visual technique of isolating a key object or character through color, lighting, or position to direct viewer attention.</p><p class="when2"><span class="lbl">Session 6</span> This is where the Blue Lock trailer actually belongs.</p></article></div>
+</main>
+<div class="note">
+ <p><b>Every definition in the first block is verbatim from the course glossary</b>, the 55-term
+ single source shared with the class. The second block is not in the glossary yet; those six are
+ already taught inside the Lighting and Color Script definitions and in the synthesis exercise,
+ so they are pulled out here where students can see them. Promote any of them and I will fold
+ them into the glossary properly.</p>
+ <p><b>No timestamps are given inside the videos.</b> The glossary marks all of these
+ &ldquo;Throughout&rdquo; and I have not watched the footage frame by frame, so a precise minute
+ mark would be invented. What is printed instead is what to look at.</p>
+</div>
+<div class="foot">
+ <p>All four videos confirmed against the YouTube oEmbed endpoint on 31 Aug 2026.</p>
+ <p>Exit ticket: one term you learned today and where you saw it. One thing you are still unsure of.</p>
+</div>
+</div>

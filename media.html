@@ -1,0 +1,158 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Otl Aicher, Munich 1972. Strict grid, one thing per cell, mono labels, thin rules.
+   The palette is defined by what it excludes: no red, no true black. Committed to a
+   light ground on purpose, because this is projected in a lit room. */
+:root{
+  --paper:#FAFAF8; --ink:#16181A; --ink2:#4A5054; --rule:#C9CCC9; --fill:#EFF0EE;
+  --blue:#2E7FC2; --green:#5EA654; --violet:#7E5AA2; --orange:#E08A2E; --silver:#B9BDBA;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+ font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5}
+.wrap{max-width:1360px;margin:0 auto;padding:40px 38px 96px}
+.lbl{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.22em;
+ text-transform:uppercase;color:var(--ink2)}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:26px;
+ border-bottom:4px solid var(--ink);padding-bottom:15px;flex-wrap:wrap}
+.mast h1{margin:6px 0 0;font-size:58px;line-height:.98;font-weight:700;letter-spacing:-.035em;
+ text-wrap:balance}
+.mast .rt{text-align:right}
+.sub{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--rule);margin-bottom:34px}
+.sub div{padding:12px 26px 12px 0;margin-right:26px;border-right:1px solid var(--rule)}
+.sub div:last-child{border-right:0;margin-right:0}
+.sub b{display:block;font-size:25px;font-weight:700;letter-spacing:-.02em;line-height:1.15}
+.nav{display:flex;gap:10px;margin:26px 0 0;flex-wrap:wrap}
+.nav a{display:inline-block;padding:10px 20px;border:2px solid var(--ink);text-decoration:none;
+ color:var(--ink);font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.18em;
+ text-transform:uppercase;background:var(--paper)}
+.nav a.here{background:var(--ink);color:var(--paper)}
+.nav a:hover,.nav a:focus-visible{background:var(--blue);border-color:var(--blue);color:#fff}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+a{color:var(--blue)}
+.note{background:var(--fill);border-left:6px solid var(--orange);padding:17px 22px;margin:32px 0 0}
+.note p{margin:0 0 9px;font-size:18px}.note p:last-child{margin:0}
+.foot{margin-top:52px;border-top:1px solid var(--rule);padding-top:17px;font-size:16px;color:var(--ink2)}
+.foot p{margin:0 0 7px}
+@media print{.nav{display:none}body{font-size:12pt}.wrap{padding:0}}
+</style>
+<title>Session 3 Media</title>
+<style>
+.item{display:grid;grid-template-columns:96px 1fr;gap:26px;padding:30px 0;
+ border-bottom:1px solid var(--rule);align-items:start}
+.item:first-of-type{border-top:1px solid var(--rule)}
+.n{font-family:"IBM Plex Mono",monospace;font-size:44px;font-weight:600;line-height:1;
+ color:var(--blue);font-variant-numeric:tabular-nums}
+.item.opt .n{color:var(--silver)}
+.item h2{margin:0 0 8px;font-size:38px;line-height:1.06;font-weight:700;letter-spacing:-.03em;
+ text-wrap:balance}
+.item h2 a{color:var(--ink);text-decoration:none;border-bottom:3px solid var(--blue)}
+.item h2 a:hover,.item h2 a:focus-visible{color:var(--blue)}
+.meta{margin:0 0 14px;display:flex;gap:16px;align-items:baseline;flex-wrap:wrap}
+.rt{font-family:"IBM Plex Mono",monospace;font-size:15px;font-weight:600;
+ font-variant-numeric:tabular-nums}
+.when{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.16em;
+ text-transform:uppercase;background:var(--ink);color:var(--paper);padding:4px 11px}
+.item.opt .when{background:var(--silver);color:var(--ink)}
+.teach{margin:0 0 10px;font-size:25px;line-height:1.28;font-weight:600;letter-spacing:-.015em;
+ color:var(--ink);max-width:34ch}
+.watch{margin:0 0 16px;font-size:19px;line-height:1.55;color:var(--ink2);max-width:66ch}
+.sws{display:flex;gap:26px;flex-wrap:wrap;margin:0 0 12px}
+.sg{display:flex;flex-direction:column;gap:5px}
+.sgn{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.2em;
+ text-transform:uppercase;color:var(--ink2)}
+.chips{display:flex;gap:3px}
+.chips i{width:38px;height:22px;display:block;border:1px solid rgba(0,0,0,.14)}
+.url{margin:0;font-family:"IBM Plex Mono",monospace;font-size:13px;word-break:break-all}
+</style>
+<div class="wrap">
+<header class="mast">
+ <div><span class="lbl">CTIN 290 &middot; Session 3 &middot; Mon 31 Aug &middot; SCI L104</span>
+  <h1>What we are<br>watching, and<br>what it teaches</h1></div>
+ <div class="rt"><span class="lbl">Sheet 1 of 2</span></div>
+</header>
+<div class="sub">
+ <div><span class="lbl">Items</span><b>5</b></div>
+ <div><span class="lbl">Total runtime</span><b>12:28</b></div>
+ <div><span class="lbl">In a block</span><b>4</b></div>
+ <div><span class="lbl">Links checked</span><b>5 of 5</b></div>
+ <div><span class="lbl">Unit</span><b>1 &middot; Seeing</b></div>
+</div>
+<nav class="nav">
+<a href="index.html">Rundown</a>
+<a href="media.html" class="here">Sheet 1 &middot; Media</a>
+<a href="terms.html">Sheet 2 &middot; Terms</a>
+</nav>
+<main style="margin-top:30px">
+<article class="item">
+  <div class="n">01</div>
+  <div class="body">
+    <h2><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">Arcane, Official Trailer</a></h2>
+    <p class="meta"><span class="lbl">Netflix</span> <span class="rt">2:44</span> <span class="when">10:12 &middot; Case Study &middot; play it twice</span></p>
+    <p class="teach">Palette as an argument about class.</p>
+    <p class="watch">Zaun is desaturated, industrial, blue and grey. Piltover is bright, organised, gold and crimson. The two palettes make the claim about place and class before a single line of dialogue does. This is the anchor text for the whole session.</p>
+    <div class="sws"><div class="sg"><span class="sgn">Zaun</span><span class="chips"><i style="background:#3E4A52"></i><i style="background:#55707F"></i><i style="background:#7C8C93"></i></span></div><div class="sg"><span class="sgn">Piltover</span><span class="chips"><i style="background:#C9992E"></i><i style="background:#E0B252"></i><i style="background:#8E3B34"></i></span></div></div>
+    <p class="url"><a href="https://www.youtube.com/watch?v=fXmAurh012s" target="_blank" rel="noopener">https://www.youtube.com/watch?v=fXmAurh012s</a></p>
+  </div>
+</article>
+<article class="item">
+  <div class="n">02</div>
+  <div class="body">
+    <h2><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">Awaken, Season 2019 Cinematic</a></h2>
+    <p class="meta"><span class="lbl">League of Legends, official</span> <span class="rt">3:28</span> <span class="when">10:12 &middot; Case Study</span></p>
+    <p class="teach">Lighting and material response carrying emotion.</p>
+    <p class="watch">Same company, same world as Arcane, years apart. Watch how much emotional information sits in the lighting and in how materials answer it, wet metal, dust, cloth, rather than in the cutting. This is the clearest lighting text in the session.</p>
+    <div class="sws"><div class="sg"><span class="sgn">Key</span><span class="chips"><i style="background:#E5C97A"></i></span></div><div class="sg"><span class="sgn">Fill</span><span class="chips"><i style="background:#3A5A72"></i></span></div><div class="sg"><span class="sgn">Rim</span><span class="chips"><i style="background:#B8D2E0"></i></span></div></div>
+    <p class="url"><a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=zF5Ddo9JdpY</a></p>
+  </div>
+</article>
+<article class="item">
+  <div class="n">03</div>
+  <div class="body">
+    <h2><a href="https://www.youtube.com/watch?v=aUts14xyjHg" target="_blank" rel="noopener">Disney&#x27;s Encanto, Official Trailer</a></h2>
+    <p class="meta"><span class="lbl">Walt Disney Studios Philippines</span> <span class="rt">2:12</span> <span class="when">10:12 &middot; Case Study</span></p>
+    <p class="teach">A colour problem solved in public.</p>
+    <p class="watch">The Madrigal house runs a saturated Colombian palette, and every Madrigal is given a hue that is theirs before they speak. Watch the house shift warmth depending on whose story is being told, and notice that Bruno's absence is a colour absence too.</p>
+    <div class="sws"><div class="sg"><span class="sgn">House</span><span class="chips"><i style="background:#E0A33A"></i><i style="background:#C9552F"></i><i style="background:#3E8C6E"></i></span></div><div class="sg"><span class="sgn">Bruno</span><span class="chips"><i style="background:#6E7A80"></i><i style="background:#4A5560"></i></span></div></div>
+    <p class="url"><a href="https://www.youtube.com/watch?v=aUts14xyjHg" target="_blank" rel="noopener">https://www.youtube.com/watch?v=aUts14xyjHg</a></p>
+  </div>
+</article>
+<article class="item">
+  <div class="n">04</div>
+  <div class="body">
+    <h2><a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8" target="_blank" rel="noopener">Coco, Official US Trailer</a></h2>
+    <p class="meta"><span class="lbl">Pixar, official</span> <span class="rt">1:28</span> <span class="when">11:16 &middot; Second Text &middot; play it twice</span></p>
+    <p class="teach">Palette as the line between two worlds.</p>
+    <p class="watch">Arcane splits colour by class and district. Coco splits it by world. The living world is warm, dim and domestic; the Land of the Dead is saturated to a degree that would be unbearable if you had not just spent twenty minutes in the muted version. A palette is a rule you set and keep, and the payload arrives when you break it.</p>
+    <div class="sws"><div class="sg"><span class="sgn">Living</span><span class="chips"><i style="background:#8A6A4E"></i><i style="background:#B9926A"></i><i style="background:#5C4433"></i></span></div><div class="sg"><span class="sgn">Dead</span><span class="chips"><i style="background:#E85FA8"></i><i style="background:#F2B02E"></i><i style="background:#3FC9C1"></i></span></div></div>
+    <p class="url"><a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8" target="_blank" rel="noopener">https://www.youtube.com/watch?v=xlnPHQ3TLX8</a></p>
+  </div>
+</article>
+<article class="item opt">
+  <div class="n">05</div>
+  <div class="body">
+    <h2><a href="https://www.youtube.com/watch?v=e8S4yoXNMPU" target="_blank" rel="noopener">Where Winds Meet, Gameplay Trailer</a></h2>
+    <p class="meta"><span class="lbl">official channel</span> <span class="rt">2:36</span> <span class="when">Optional &middot; not placed in a block</span></p>
+    <p class="teach">Restraint and negative space.</p>
+    <p class="watch">Carried over from the Constraint through-line rather than the colour argument. Reach for it only if the room is ahead of schedule; nothing in the session depends on it.</p>
+    <div class="sws"><div class="sg"><span class="sgn">Ink</span><span class="chips"><i style="background:#2B2E30"></i><i style="background:#7E888C"></i><i style="background:#D8DAD6"></i></span></div></div>
+    <p class="url"><a href="https://www.youtube.com/watch?v=e8S4yoXNMPU" target="_blank" rel="noopener">https://www.youtube.com/watch?v=e8S4yoXNMPU</a></p>
+  </div>
+</article>
+</main>
+<div class="note">
+ <p><b>On the swatches.</b> They are drawn from the words in the session plan, not sampled from
+ the frames. Use them as a cue for what to point at, not as a colour reference.</p>
+ <p><b>Encanto is a regional official channel</b> (Walt Disney Studios Philippines), not the main
+ Disney account. It is official, and it is worth saying so out loud when you play it.</p>
+</div>
+<div class="foot">
+ <p>Every link on this sheet was confirmed against the YouTube oEmbed endpoint on 31 Aug 2026,
+ and the returned title and channel are what you see printed above.</p>
+ <p>Class meets 10:00 AM to 12:50 PM, Mon and Wed. 170 minutes.</p>
+</div>
+</div>
