@@ -8,12 +8,12 @@ from _kit import KIT, NAV
 ITEMS = [
  ("tJbzMqJGH4k", "Grand Theft Auto VI, Trailer 3", "Rockstar Games, official", "26:48",
   "10:00 &middot; Opening &middot; play 0:00 to 6:00",
-  "Colour and time of day carrying a whole place, seen running rather than cut.",
+  "Color and time of day carrying a whole place, seen running rather than cut.",
   "Rockstar released this on 28 August under the title \"An Extended Look\" and never puts the "
   "words Trailer 3 on it, so search the title, not the number. It is a gameplay presentation, "
-  "which is why it earns a colour session: the first sustained look at the world lit and "
+  "which is why it earns a color session: the first sustained look at the world lit and "
   "running rather than edited. Play the first six minutes. Two questions after: three words "
-  "for the colour of this world and what the palette says before anyone speaks, then pick one "
+  "for the color of this world and what the palette says before anyone speaks, then pick one "
   "moment and say what the LIGHT is telling you that the action is not. Both are setup, for "
   "Arcane and for Awaken.",
   [("Night", ["#E0348B","#2E7FC2","#1B1A38"]), ("Day", ["#F2B33D","#E8CFA0","#4E8C5A"])]),
@@ -21,7 +21,7 @@ ITEMS = [
  ("fXmAurh012s", "Arcane, Official Trailer", "Netflix", "2:44",
   "10:12 &middot; Case Study &middot; play it twice",
   "Palette as an argument about class.",
-  "Zaun is desaturated, industrial, blue and grey. Piltover is bright, organised, gold and "
+  "Zaun is desaturated, industrial, blue and gray. Piltover is bright, organized, gold and "
   "crimson. The two palettes make the claim about place and class before a single line of "
   "dialogue does. This is the anchor text for the whole session.",
   [("Zaun", ["#3E4A52","#55707F","#7C8C93"]), ("Piltover", ["#C9992E","#E0B252","#8E3B34"])]),
@@ -36,16 +36,16 @@ ITEMS = [
 
  ("aUts14xyjHg", "Disney's Encanto, Official Trailer", "Walt Disney Studios Philippines", "2:12",
   "10:12 &middot; Case Study",
-  "A colour problem solved in public.",
+  "A color problem solved in public.",
   "The Madrigal house runs a saturated Colombian palette, and every Madrigal is given a hue "
   "that is theirs before they speak. Watch the house shift warmth depending on whose story is "
-  "being told, and notice that Bruno's absence is a colour absence too.",
+  "being told, and notice that Bruno's absence is a color absence too.",
   [("House", ["#E0A33A","#C9552F","#3E8C6E"]), ("Bruno", ["#6E7A80","#4A5560"])]),
 
  ("xlnPHQ3TLX8", "Coco, Official US Trailer", "Pixar, official", "1:28",
   "11:16 &middot; Second Text &middot; play it twice",
   "Palette as the line between two worlds.",
-  "Arcane splits colour by class and district. Coco splits it by world. The living world is "
+  "Arcane splits color by class and district. Coco splits it by world. The living world is "
   "warm, dim and domestic; the Land of the Dead is saturated to a degree that would be "
   "unbearable if you had not just spent twenty minutes in the muted version. A palette is a "
   "rule you set and keep, and the payload arrives when you break it.",
@@ -54,7 +54,7 @@ ITEMS = [
  ("e8S4yoXNMPU", "Where Winds Meet, Gameplay Trailer", "official channel", "2:36",
   "Optional &middot; not placed in a block",
   "Restraint and negative space.",
-  "Carried over from the Constraint through-line rather than the colour argument. Reach for "
+  "Carried over from the Constraint through-line rather than the color argument. Reach for "
   "it only if the room is ahead of schedule; nothing in the session depends on it.",
   [("Ink", ["#2B2E30","#7E888C","#D8DAD6"])]),
 ]
@@ -128,7 +128,7 @@ page = f'''{KIT}
 </main>
 <div class="note">
  <p><b>On the swatches.</b> They are drawn from the words in the session plan, not sampled from
- the frames. Use them as a cue for what to point at, not as a colour reference.</p>
+ the frames. Use them as a cue for what to point at, not as a color reference.</p>
  <p><b>Trailer 3 runs 26:48 and the board plays six minutes of it.</b> Rockstar titles it
  <em>An Extended Look</em> and never writes Trailer 3 on the video, so search the title, not the
  number. Running the whole thing costs Encanto plus twelve minutes off the build, and the

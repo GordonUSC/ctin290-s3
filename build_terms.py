@@ -20,7 +20,7 @@ CANON = [
   "Piltover gold against undercity neon. The palette argues class before any dialogue does.",
   "Ralph Eggleston brought the color script to Pixar in 1992 as art director on Toy Story, "
   "working in pastel on black paper because it was fast and cheap. You can read the emotional "
-  "arc of a film off its colour alone, sound off, no dialogue."),
+  "arc of a film off its color alone, sound off, no dialogue."),
  ("Palette",
   "The selected range of colors in a shot, scene, or project; establishes mood and visual unity.",
   "arcane", "Saturation doing emotional work, scene to scene.",
@@ -42,12 +42,12 @@ CANON = [
 
 UNPACKED = [
  ("Saturation",
-  "How much pure hue a colour carries, from flat grey at one end to full intensity at the "
+  "How much pure hue a color carries, from flat gray at one end to full intensity at the "
   "other. Independent of how light or dark it is.", "coco",
   "The living world is muted; the Land of the Dead is saturated to the edge of comfort. Same "
   "film, two settings of one dial."),
  ("Value",
-  "How light or dark a colour is, independent of its hue. The dimension that survives when "
+  "How light or dark a color is, independent of its hue. The dimension that survives when "
   "you turn the picture greyscale.", "arcane",
   "Turn Zaun greyscale in your head. The class argument still reads, because it was built in "
   "value as well as in hue."),
@@ -63,17 +63,17 @@ UNPACKED = [
   "Hard light comes from a small source and gives sharp-edged shadows. Soft light comes from "
   "a large or diffused source and gives gradual ones.", "awaken",
   "Watch the shadow edges on faces and on wet metal. The edge is the tell, not the brightness."),
- ("Cultural vs. universal colour",
-  "Some colour associations are learned inside a culture rather than shared by everyone. "
+ ("Cultural vs. universal color",
+  "Some color associations are learned inside a culture rather than shared by everyone. "
   "Treating a learned association as universal is the most common failure in a mood board.",
   "encanto",
-  "Name one colour choice that is cultural rather than universal, and say how you know. You "
+  "Name one color choice that is cultural rather than universal, and say how you know. You "
   "will be asked this about Coco in the second half."),
 ]
 
 FORWARD = [
  ("Tone", "The emotional or stylistic mood of a work; created through every visual and sonic "
-  "choice.", "Session 8", "Today is the colour half of it."),
+  "choice.", "Session 8", "Today is the color half of it."),
  ("Constraint", "A hard limit on the palette, resolution, color depth, or geometry available "
   "to you. Constraint is not the opposite of expression, it is often the engine of it.",
   "Session 2", "Where Winds Meet sits here, which is why it is optional today."),
@@ -147,7 +147,7 @@ h2.sec span{{float:right;letter-spacing:.06em;color:var(--ink2);font-weight:400;
 </style>
 <div class="wrap">
 <header class="mast">
- <div><span class="lbl">CTIN 290 &middot; Session 3 &middot; Colour &amp; Lighting &middot; Unit 1, Seeing</span>
+ <div><span class="lbl">CTIN 290 &middot; Session 3 &middot; Color &amp; Lighting &middot; Unit 1, Seeing</span>
   <h1>The words for<br>what you are<br>looking at</h1></div>
  <div class="rt"><span class="lbl">Sheet 2 of 2</span></div>
 </header>
