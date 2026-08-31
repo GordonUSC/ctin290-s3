@@ -63,12 +63,21 @@
   a:hover,a:focus-visible{text-decoration:underline}
   a:focus-visible{outline:2px solid var(--live); outline-offset:2px}
 
-  .unnamed .title.before{color:var(--ink-2); font-style:italic}
-  /* the 11:55 clip stays unnamed until it has actually played */
-  .after{display:none}
-  body.revealed .before{display:none}
-  body.revealed .after{display:block}
 
+  .manifest{background:var(--surface-2); padding:.9em 1em; margin:0 0 1.4em; border-left:3px solid var(--live)}
+  .manifest h3{margin:0 0 .1em; font-size:.78em; text-transform:uppercase; letter-spacing:.13em;
+    color:var(--live); font-weight:700}
+  .manifest .tot{font-family:var(--mono); color:var(--ink-3); font-size:.74em; margin-bottom:.7em}
+  .mrow{display:grid; grid-template-columns:1.6em 1fr auto; gap:.15em .8em; align-items:baseline;
+    padding:.42em 0; border-top:1px solid var(--rule)}
+  .mrow .no{font-family:var(--mono); color:var(--ink-3); font-size:.8em}
+  .mrow .nm{font-weight:650; letter-spacing:-.01em}
+  .mrow .rt{font-family:var(--mono); color:var(--live); font-variant-numeric:tabular-nums; font-size:.9em}
+  .mrow .lk{grid-column:2 / -1}
+  .mrow .wh{grid-column:2 / -1; color:var(--ink-3); font-size:.76em; font-family:var(--mono);
+    letter-spacing:.03em; text-transform:uppercase}
+  @media (max-width:640px){ .mrow{grid-template-columns:1.6em 1fr} .mrow .rt{grid-column:2} }
+  .run{font-family:var(--mono); color:var(--live); font-size:.82em; font-variant-numeric:tabular-nums}
   h2{
     font-size:.78em; text-transform:uppercase; letter-spacing:.13em; color:var(--ink-3);
     font-weight:600; margin:1.6em 0 .5em; border-top:1px solid var(--rule); padding-top:.9em;
@@ -103,6 +112,31 @@
 <p class="sub" style="margin:0 0 1.2em;color:var(--ink-2)">Color &amp; Lighting &middot; Unit 1: Seeing<br>
 Understand color psychology, palette development, and lighting as narrative tool</p>
 
+<div class="manifest">
+  <h3>Media for today, in play order</h3>
+  <div class="tot">FIVE ITEMS &middot; 12:28 TOTAL RUNTIME &middot; ALL LINKS VERIFIED 31 AUG 2026</div>
+
+  <div class="mrow"><div class="no">1</div><div class="nm">Arcane, Official Trailer</div><div class="rt">2:44</div>
+    <a class="lk" href="https://www.youtube.com/watch?v=fXmAurh012s">youtube.com/watch?v=fXmAurh012s</a>
+    <div class="wh">10:12 Case Study &middot; Netflix &middot; play twice</div></div>
+
+  <div class="mrow"><div class="no">2</div><div class="nm">League of Legends, &quot;Awaken&quot; Cinematic</div><div class="rt">3:28</div>
+    <a class="lk" href="https://www.youtube.com/watch?v=zF5Ddo9JdpY">youtube.com/watch?v=zF5Ddo9JdpY</a>
+    <div class="wh">10:12 Case Study &middot; Riot Games, official</div></div>
+
+  <div class="mrow"><div class="no">3</div><div class="nm">Disney&#x27;s Encanto, Official Trailer</div><div class="rt">2:12</div>
+    <a class="lk" href="https://www.youtube.com/watch?v=aUts14xyjHg">youtube.com/watch?v=aUts14xyjHg</a>
+    <div class="wh">10:12 Case Study &middot; Walt Disney Studios, regional channel</div></div>
+
+  <div class="mrow"><div class="no">4</div><div class="nm">Coco, Official US Trailer</div><div class="rt">1:28</div>
+    <a class="lk" href="https://www.youtube.com/watch?v=xlnPHQ3TLX8">youtube.com/watch?v=xlnPHQ3TLX8</a>
+    <div class="wh">11:16 Second Text &middot; Pixar, official &middot; play twice</div></div>
+
+  <div class="mrow"><div class="no">5</div><div class="nm">Where Winds Meet, Gameplay Trailer</div><div class="rt">2:36</div>
+    <a class="lk" href="https://www.youtube.com/watch?v=e8S4yoXNMPU">youtube.com/watch?v=e8S4yoXNMPU</a>
+    <div class="wh">Optional &middot; official channel &middot; see note at foot</div></div>
+</div>
+
 <div class="board" id="board">
 
   <div class="row" data-start="600" data-end="612">
@@ -119,15 +153,15 @@ Understand color psychology, palette development, and lighting as narrative tool
       <div class="title">Case Study</div>
       <div class="sub">Arcane&#x27;s Color Palettes: Analyze Zaun (desaturated, industrial blues/grays) vs. Piltover (bright, organized golds/crimsons). How does color tell story about place and class? Study lighting as mood setter.</div>
       <div class="sub" style="margin-top:.5em">&#9654; Arcane, Official Trailer (Netflix)
-        <span style="color:var(--ink-3)">&middot; 0:00 to 180:00</span></div>
+        <span class="run">&middot; 2:44, play it twice</span></div>
       <a href="https://www.youtube.com/watch?v=fXmAurh012s">youtube.com/watch?v=fXmAurh012s</a>
       <div class="sub">Notice the distinct color palettes for Zaun (desaturated, industrial) vs. Piltover (bright, organized). Color tells story.</div>
       <div class="sub" style="margin-top:.5em">&#9654; League of Legends, &quot;Awaken&quot; Season 2019 Cinematic
-        <span style="color:var(--ink-3)">&middot; Throughout</span></div>
+        <span class="run">&middot; 3:28</span></div>
       <a href="https://www.youtube.com/watch?v=zF5Ddo9JdpY">youtube.com/watch?v=zF5Ddo9JdpY</a>
       <div class="sub">Official, Riot. Pair it with Arcane in the same block. Same company, same world, years apart. Watch how much emotional information sits in lighting and material response, wet metal, dust, cloth, rather than in the cuts.</div>
       <div class="sub" style="margin-top:.5em">&#9654; Disney&#x27;s Encanto, Official Trailer
-        <span style="color:var(--ink-3)">&middot; Throughout</span></div>
+        <span class="run">&middot; 2:12</span></div>
       <a href="https://www.youtube.com/watch?v=aUts14xyjHg">youtube.com/watch?v=aUts14xyjHg</a>
       <div class="sub">Official, Walt Disney Studios regional channel. The Madrigal house is a color problem solved in public. Saturated Colombian palette, and every Madrigal gets a hue that is theirs before they say a word. Watch how the house itself shifts warmth depending on whose story is being told, and notice that Bruno&#x27;s absence is a color absence too.</div>
       <div class="ask">How does color tell story about place and class?</div>
@@ -154,20 +188,38 @@ Understand color psychology, palette development, and lighting as narrative tool
     <div class="t">11:16</div><div class="mark">&#9654;</div>
     <div class="what">
       <div class="title">Second Text, Coco, and Color as a Place</div>
-      <div class="sub">Arcane splits its palette by class and district. Coco splits it by world. The land of the living is warm, dim and domestic; the Land of the Dead is saturated to a degree that would be unbearable if you had not just spent twenty minutes in the muted version. Watch it, then ask the question that actually matters for their own projects. Not which palette is prettier, but what each one is FOR. A palet&hellip;</div>
+      <div class="sub">Arcane splits its palette by class and district. Coco splits it by world. The land of the living is warm, dim and domestic; the Land of the Dead is saturated to a degree that would be unbearable if you had not just spent twenty minutes in the muted version. Watch it, then ask the question that actually matters for their own projects. Not which palette is prettier, but what each one is FOR. A palette is a rule you set and then keep, and the emotional payload arrives at the moment you break it. Second question, and hold them to it: name one color choice in Coco that is cultural rather than universal, and say how you know.</div>
       <div class="sub" style="margin-top:.5em">&#9654; Coco, Official US Trailer (Pixar)
-        <span style="color:var(--ink-3)">&middot; Full trailer</span></div>
+        <span class="run">&middot; 1:28, play it twice</span></div>
       <a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8">youtube.com/watch?v=xlnPHQ3TLX8</a>
       <div class="sub">Official, Pixar channel. Verified via YouTube oEmbed 26 Aug 2026. Run it against Arcane: Arcane splits color by class and district, Coco splits it by world. The Land of the Dead only reads as overwhelming because you spent the first act in a muted house. A palette is a rule you keep so that breaking it means something.</div>
     </div>
   </div>
 
-  <div class="row" data-start="706" data-end="765">
+  <div class="row" data-start="706" data-end="720">
     <div class="t">11:46</div><div class="mark">&middot;</div>
     <div class="what">
-      <div class="title">Synthesis</div>
-      <div class="sub">Rewatch Arcane opening. Track color changes. Create a color timeline: what shifts, when, and why? Homework: color palette analysis of assigned scene.</div>
-      <div class="ask">Create a color timeline: what shifts, when, and why?</div>
+      <div class="title">Synthesis 1, What a Color Script Is</div>
+      <div class="sub">A row of small paintings, in story order, showing the color and mood of every beat, made before production starts. Not what happens in a scene, how it feels, using only temperature, value and saturation. Ralph Eggleston brought the color script to Pixar in 1992 as art director on Toy Story, working in pastel on black paper because it was fast and cheap. Lasseter could read the emotional arc of the whole film off a wall of them.</div>
+      <div class="ask">You can read the emotional arc of a film off its color alone, sound off, no dialogue.</div>
+    </div>
+  </div>
+
+  <div class="row" data-start="720" data-end="745">
+    <div class="t">12:00</div><div class="mark">&middot;</div>
+    <div class="what">
+      <div class="title">Synthesis 2, They Build One</div>
+      <div class="sub">Each student makes a color script on paper for a story they know or one they want to make. Six to eight swatches, in order, left to right, one word underneath each naming the emotion. The constraint that makes it work: you have to set a rule and then break it once, and you have to be able to say what the rule was and where it broke.</div>
+      <div class="ask">A mood board is a color script. This is the rehearsal for the 20 percent assignment.</div>
+    </div>
+  </div>
+
+  <div class="row" data-start="745" data-end="765">
+    <div class="t">12:25</div><div class="mark">&middot;</div>
+    <div class="what">
+      <div class="title">Synthesis 3, Critique</div>
+      <div class="sub">Pin them up or pass them around. Take three or four and run the course framework on each one.</div>
+      <div class="ask">I LIKE, specific praise. I WISH, name a gap without prescribing. WHAT IF, offer a possibility, not a command.</div>
     </div>
   </div>
 
@@ -175,16 +227,17 @@ Understand color psychology, palette development, and lighting as narrative tool
     <div class="t">12:45</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Exit Ticket, Two Lines Before Anyone Leaves</div>
-      <div class="sub">One term you learned today and where you saw it. One thing you are still unsure of. Collect them at the door. This costs five minutes and it is the cheapest instrument you have for finding out what actually landed. The two things students are least likely to volunteer are which concept went past them and what they believe is expected of them, and this asks for both directly. Read them before the n&hellip;</div>
+      <div class="sub">One term you learned today and where you saw it. One thing you are still unsure of. Collect them at the door. This costs five minutes and it is the cheapest instrument you have for finding out what actually landed. The two things students are least likely to volunteer are which concept went past them and what they believe is expected of them, and this asks for both directly. Read them before the next session and open with the most common confusion, by name, so the room learns that saying you are lost actually changes what happens.</div>
     </div>
   </div>
 
 </div>
 
-<h2>Not placed in a block</h2><div class="hw">
-  <div><div class="title">Where Winds Meet, Official Gameplay Trailer</div>
+<h2>Optional, not placed in a block</h2><div class="hw">
+  <div><div class="title">Where Winds Meet, Official Gameplay Trailer <span class="run">&middot; 2:36</span></div>
     <div class="sub">Its cue in the master reads &ldquo;66-76 min, Ten-Minute Break&rdquo;, which is not a
-    teaching block. Parked here rather than moved, because where it belongs is your call.</div>
+    teaching block, so do not play it in the break. Either drop it today or fold it into the 10:12
+    case study as a fourth example of environmental lighting. Your call.</div>
     <a href="https://www.youtube.com/watch?v=e8S4yoXNMPU">youtube.com/watch?v=e8S4yoXNMPU</a>
     <div class="sub">Study environmental lighting and how color establishes emotional tone and place identity.</div></div>
 </div>
