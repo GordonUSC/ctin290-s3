@@ -118,52 +118,41 @@ Understand color psychology, palette development, and lighting as narrative tool
     <a href="terms.html" style="display:inline-block;padding:10px 20px;border:2px solid currentColor;text-decoration:none;font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase">Sheet 2 &middot; Terms</a>
   </div>
   <h3>Media for today, in play order</h3>
-  <div class="tot">SIX ITEMS &middot; 15:15 TOTAL RUNTIME &middot; ALL LINKS VERIFIED 31 AUG 2026</div>
+  <div class="tot">FIVE ITEMS &middot; 12:28 TOTAL RUNTIME &middot; ALL LINKS VERIFIED 31 AUG 2026</div>
 
-  <div class="mrow"><div class="no">1</div><div class="nm">Grand Theft Auto VI, Trailer 2</div><div class="rt">2:47</div>
-    <a class="lk" href="https://www.youtube.com/watch?v=VQRLujxTm3c">youtube.com/watch?v=VQRLujxTm3c</a>
-    <div class="wh">10:00 Opening &middot; Rockstar Games, official &middot; NEW</div></div>
-
-  <div class="mrow"><div class="no">2</div><div class="nm">Arcane, Official Trailer</div><div class="rt">2:44</div>
+  <div class="mrow"><div class="no">1</div><div class="nm">Arcane, Official Trailer</div><div class="rt">2:44</div>
     <a class="lk" href="https://www.youtube.com/watch?v=fXmAurh012s">youtube.com/watch?v=fXmAurh012s</a>
     <div class="wh">10:12 Case Study &middot; Netflix &middot; play twice</div></div>
 
-  <div class="mrow"><div class="no">3</div><div class="nm">League of Legends, &quot;Awaken&quot; Cinematic</div><div class="rt">3:28</div>
+  <div class="mrow"><div class="no">2</div><div class="nm">League of Legends, &quot;Awaken&quot; Cinematic</div><div class="rt">3:28</div>
     <a class="lk" href="https://www.youtube.com/watch?v=zF5Ddo9JdpY">youtube.com/watch?v=zF5Ddo9JdpY</a>
     <div class="wh">10:12 Case Study &middot; Riot Games, official</div></div>
 
-  <div class="mrow"><div class="no">4</div><div class="nm">Disney&#x27;s Encanto, Official Trailer</div><div class="rt">2:12</div>
+  <div class="mrow"><div class="no">3</div><div class="nm">Disney&#x27;s Encanto, Official Trailer</div><div class="rt">2:12</div>
     <a class="lk" href="https://www.youtube.com/watch?v=aUts14xyjHg">youtube.com/watch?v=aUts14xyjHg</a>
     <div class="wh">10:12 Case Study &middot; Walt Disney Studios, regional channel</div></div>
 
-  <div class="mrow"><div class="no">5</div><div class="nm">Coco, Official US Trailer</div><div class="rt">1:28</div>
+  <div class="mrow"><div class="no">4</div><div class="nm">Coco, Official US Trailer</div><div class="rt">1:28</div>
     <a class="lk" href="https://www.youtube.com/watch?v=xlnPHQ3TLX8">youtube.com/watch?v=xlnPHQ3TLX8</a>
     <div class="wh">11:16 Second Text &middot; Pixar, official &middot; play twice</div></div>
 
-  <div class="mrow"><div class="no">6</div><div class="nm">Where Winds Meet, Gameplay Trailer</div><div class="rt">2:36</div>
+  <div class="mrow"><div class="no">5</div><div class="nm">Where Winds Meet, Gameplay Trailer</div><div class="rt">2:36</div>
     <a class="lk" href="https://www.youtube.com/watch?v=e8S4yoXNMPU">youtube.com/watch?v=e8S4yoXNMPU</a>
     <div class="wh">Optional &middot; official channel &middot; see note at foot</div></div>
 </div>
 
 <div class="board" id="board">
 
-  <div class="row play" data-start="600" data-end="620">
-    <div class="t">10:00</div><div class="mark">&#9654;</div>
+  <div class="row" data-start="600" data-end="612">
+    <div class="t">10:00</div><div class="mark">&middot;</div>
     <div class="what">
-      <div class="title">Opening, The Newest Thing In Games And What Its Colour Is Doing</div>
-      <div class="sub">Open on the thing they are already arguing about. Rockstar dropped an extended look four days ago, on 28 August, and this room has opinions about it whether or not they have played anything. Play Trailer 2, ask the two questions, and pull the vocabulary out of their answers instead of lecturing it first. Warm vs. cool, saturated vs. desaturated, and how colour conveys emotion without words: every one of those terms is available in what they just watched, and a term they hand you is a term they keep.</div>
-      <div class="sub" style="margin-top:.5em">&#9654; Grand Theft Auto VI, Trailer 2 (Rockstar Games, official)
-        <span class="run">&middot; 2:47</span></div>
-      <a class="lk" href="https://www.youtube.com/watch?v=VQRLujxTm3c">youtube.com/watch?v=VQRLujxTm3c</a>
-      <div class="sub" style="margin-top:.7em"><b>Question one.</b> Three words for the colour of this world. What is the palette telling you about the place before a single person speaks?</div>
-      <div class="sub" style="margin-top:.4em"><b>Question two.</b> Pick one moment and say what the LIGHT is telling you that the action is not.</div>
-      <div class="sub" style="margin-top:.7em">Both questions are doing setup work. One is the Arcane block in forty minutes, where a palette argues class before any dialogue does. Two is the Awaken block, where the emotional information sits in the lighting rather than the cuts. Do not name Arcane yet, let them arrive at it.</div>
-      <div class="sub" style="margin-top:.7em">If the room runs hot on this, let it, and take the time back from the 12:06 build rather than from the critique at 12:28.</div>
+      <div class="title">Opening</div>
+      <div class="sub">Introduce color psychology. Warm vs. cool. Saturated vs. desaturated. How color conveys emotion without words.</div>
     </div>
   </div>
 
-  <div class="row play" data-start="620" data-end="656">
-    <div class="t">10:20</div><div class="mark">&#9654;</div>
+  <div class="row play" data-start="612" data-end="648">
+    <div class="t">10:12</div><div class="mark">&#9654;</div>
     <div class="what">
       <div class="title">Case Study</div>
       <div class="sub">Arcane&#x27;s Color Palettes: Analyze Zaun (desaturated, industrial blues/grays) vs. Piltover (bright, organized golds/crimsons). How does color tell story about place and class? Study lighting as mood setter.</div>
@@ -183,24 +172,24 @@ Understand color psychology, palette development, and lighting as narrative tool
     </div>
   </div>
 
-  <div class="row" data-start="656" data-end="674">
-    <div class="t">10:56</div><div class="mark">&middot;</div>
+  <div class="row" data-start="648" data-end="666">
+    <div class="t">10:48</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Activity, Color Palette Extraction</div>
       <div class="sub">Students take a still from the day&#x27;s material and pull its dominant colors into a five-swatch palette. Compare palettes across the room for the same film. Discuss the emotional associations each palette carries and where those associations are cultural rather than universal.</div>
     </div>
   </div>
 
-  <div class="row quiet" data-start="674" data-end="684">
-    <div class="t">11:14</div><div class="mark">&middot;</div>
+  <div class="row quiet" data-start="666" data-end="676">
+    <div class="t">11:06</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Ten-Minute Break</div>
       <div class="sub">The block is 170 minutes now, not 110. One five-minute break was enough for a two-hour class and it is not enough for this one. Take the full ten and leave the room, because the back half is the half that has to land.</div>
     </div>
   </div>
 
-  <div class="row play" data-start="684" data-end="714">
-    <div class="t">11:24</div><div class="mark">&#9654;</div>
+  <div class="row play" data-start="676" data-end="706">
+    <div class="t">11:16</div><div class="mark">&#9654;</div>
     <div class="what">
       <div class="title">Second Text, Coco, and Color as a Place</div>
       <div class="sub">Arcane splits its palette by class and district. Coco splits it by world. The land of the living is warm, dim and domestic; the Land of the Dead is saturated to a degree that would be unbearable if you had not just spent twenty minutes in the muted version. Watch it, then ask the question that actually matters for their own projects. Not which palette is prettier, but what each one is FOR. A palette is a rule you set and then keep, and the emotional payload arrives at the moment you break it. Second question, and hold them to it: name one color choice in Coco that is cultural rather than universal, and say how you know.</div>
@@ -211,8 +200,8 @@ Understand color psychology, palette development, and lighting as narrative tool
     </div>
   </div>
 
-  <div class="row" data-start="714" data-end="726">
-    <div class="t">11:54</div><div class="mark">&middot;</div>
+  <div class="row" data-start="706" data-end="720">
+    <div class="t">11:46</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Synthesis 1, What a Color Script Is</div>
       <div class="sub">A row of small paintings, in story order, showing the color and mood of every beat, made before production starts. Not what happens in a scene, how it feels, using only temperature, value and saturation. Ralph Eggleston brought the color script to Pixar in 1992 as art director on Toy Story, working in pastel on black paper because it was fast and cheap. Lasseter could read the emotional arc of the whole film off a wall of them.</div>
@@ -220,8 +209,8 @@ Understand color psychology, palette development, and lighting as narrative tool
     </div>
   </div>
 
-  <div class="row" data-start="726" data-end="748">
-    <div class="t">12:06</div><div class="mark">&middot;</div>
+  <div class="row" data-start="720" data-end="745">
+    <div class="t">12:00</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Synthesis 2, They Build One</div>
       <div class="sub">Each student makes a color script on paper for a story they know or one they want to make. Six to eight swatches, in order, left to right, one word underneath each naming the emotion. The constraint that makes it work: you have to set a rule and then break it once, and you have to be able to say what the rule was and where it broke.</div>
@@ -229,8 +218,8 @@ Understand color psychology, palette development, and lighting as narrative tool
     </div>
   </div>
 
-  <div class="row" data-start="748" data-end="765">
-    <div class="t">12:28</div><div class="mark">&middot;</div>
+  <div class="row" data-start="745" data-end="765">
+    <div class="t">12:25</div><div class="mark">&middot;</div>
     <div class="what">
       <div class="title">Synthesis 3, Critique</div>
       <div class="sub">Pin them up or pass them around. Take three or four and run the course framework on each one.</div>
@@ -276,8 +265,6 @@ Understand color psychology, palette development, and lighting as narrative tool
     &middot; Throughout &middot; Temperature as allegiance. Which side of the city are you being asked to stand on.</div>
   <a href="https://www.youtube.com/watch?v=fXmAurh012s">youtube.com/watch?v=fXmAurh012s</a>
 </div></div>
-<h2>The 27-minute one, and why it is not in the block</h2>
-<div class="sub" style="margin-bottom:1.4em;max-width:70ch">The thing that actually dropped on 28 August is <b>Grand Theft Auto VI: An Extended Look</b>, and it runs <b>26:48</b>, not two minutes. It premiered on Netflix at 3pm ET and went up on Rockstar&#x27;s own channel at 9pm ET the same day. It is a gameplay presentation, not a trailer, so it will not fit at the top of a session that is already full. Two ways to use it anyway. Assign it before Wednesday and open S4 with it, since S4 is camera movement and this is twenty-seven minutes of camera. Or pull one 90-second stretch and run it against Trailer 2 in the opening, which turns the block into a question about what changes when a player holds the camera instead of a director. <a class="lk" href="https://www.youtube.com/watch?v=tJbzMqJGH4k">youtube.com/watch?v=tJbzMqJGH4k</a></div>
 <h2>Before next session</h2><div class="hw"><div><div class="title">color palette analysis of assigned scene.</div></div></div>
 
 <h2>This class meets 10:00 AM to 12:50 PM, Mon &amp; Wed</h2>

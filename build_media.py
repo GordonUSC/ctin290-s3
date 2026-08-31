@@ -6,6 +6,16 @@ from _kit import KIT, NAV
 
 # id, title, channel, runtime, when it plays, what it teaches, what to watch for, swatches
 ITEMS = [
+ ("VQRLujxTm3c", "Grand Theft Auto VI, Trailer 2", "Rockstar Games, official", "2:47",
+  "10:00 &middot; Opening &middot; NEW",
+  "Colour and time of day carrying a whole place.",
+  "Added for the top of class because Rockstar released an extended look on 28 August, four "
+  "days ago, and the room is already arguing about it. Two questions after it plays. Three "
+  "words for the colour of this world, and what is the palette telling you about the place "
+  "before anyone speaks. Then: pick one moment and say what the LIGHT is telling you that the "
+  "action is not. Both are setup. The first is the Arcane block, the second is Awaken.",
+  [("Night", ["#E0348B","#2E7FC2","#1B1A38"]), ("Day", ["#F2B33D","#E8CFA0","#4E8C5A"])]),
+
  ("fXmAurh012s", "Arcane, Official Trailer", "Netflix", "2:44",
   "10:12 &middot; Case Study &middot; play it twice",
   "Palette as an argument about class.",
@@ -104,10 +114,10 @@ page = f'''{KIT}
  <div class="rt"><span class="lbl">Sheet 1 of 2</span></div>
 </header>
 <div class="sub">
- <div><span class="lbl">Items</span><b>5</b></div>
- <div><span class="lbl">Total runtime</span><b>12:28</b></div>
- <div><span class="lbl">In a block</span><b>4</b></div>
- <div><span class="lbl">Links checked</span><b>5 of 5</b></div>
+ <div><span class="lbl">Items</span><b>6</b></div>
+ <div><span class="lbl">Total runtime</span><b>15:15</b></div>
+ <div><span class="lbl">In a block</span><b>5</b></div>
+ <div><span class="lbl">Links checked</span><b>6 of 6</b></div>
  <div><span class="lbl">Unit</span><b>1 &middot; Seeing</b></div>
 </div>
 {NAV.format(m=' class="here"', t='')}
@@ -117,6 +127,11 @@ page = f'''{KIT}
 <div class="note">
  <p><b>On the swatches.</b> They are drawn from the words in the session plan, not sampled from
  the frames. Use them as a cue for what to point at, not as a colour reference.</p>
+ <p><b>The GTA item is Trailer 2, not the new one.</b> What dropped on 28 August is
+ <em>An Extended Look</em>, and it runs 26:48, a gameplay presentation rather than a trailer.
+ It does not fit at the top of a full session. Assign it before Wednesday and open S4 with it,
+ or pull one 90-second stretch and run it against Trailer 2 here.
+ youtube.com/watch?v=tJbzMqJGH4k</p>
  <p><b>Encanto is a regional official channel</b> (Walt Disney Studios Philippines), not the main
  Disney account. It is official, and it is worth saying so out loud when you play it.</p>
 </div>
