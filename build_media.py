@@ -7,15 +7,15 @@ from _kit import KIT, NAV
 # id, title, channel, runtime, when it plays, what it teaches, what to watch for, swatches
 ITEMS = [
  ("tJbzMqJGH4k", "Grand Theft Auto VI, Trailer 3", "Rockstar Games, official", "26:48",
-  "10:00 &middot; Opening &middot; play 0:00 to 6:00",
+  "10:00 &middot; Opening &middot; PLAYED IN FULL, all 26:48",
   "Color and time of day carrying a whole place, seen running rather than cut.",
   "Rockstar released this on 28 August under the title \"An Extended Look\" and never puts the "
   "words Trailer 3 on it, so search the title, not the number. It is a gameplay presentation, "
   "which is why it earns a color session: the first sustained look at the world lit and "
-  "running rather than edited. Play the first six minutes. Two questions after: three words "
-  "for the color of this world and what the palette says before anyone speaks, then pick one "
-  "moment and say what the LIGHT is telling you that the action is not. Both are setup, for "
-  "Arcane and for Awaken.",
+  "running rather than edited. THE WHOLE 26:48 RAN IN THE ROOM, not the planned six minutes. "
+  "Two questions after: three words for the color of this world and what the palette says "
+  "before anyone speaks, then pick one moment and say what the LIGHT is telling you that the "
+  "action is not. Both are setup, for Arcane and for Awaken.",
   [("Night", ["#E0348B","#2E7FC2","#1B1A38"]), ("Day", ["#F2B33D","#E8CFA0","#4E8C5A"])]),
 
  ("fXmAurh012s", "Arcane, Official Trailer", "Netflix", "2:44",
@@ -129,11 +129,12 @@ page = f'''{KIT}
 <div class="note">
  <p><b>On the swatches.</b> They are drawn from the words in the session plan, not sampled from
  the frames. Use them as a cue for what to point at, not as a color reference.</p>
- <p><b>Trailer 3 runs 26:48 and the board plays six minutes of it.</b> Rockstar titles it
- <em>An Extended Look</em> and never writes Trailer 3 on the video, so search the title, not the
- number. Running the whole thing costs Encanto plus twelve minutes off the build, and the
- rundown says so on the block. It also has a second home: Session 4 is camera movement, and
- this is twenty-seven minutes of camera.</p>
+ <p><b>Trailer 3 runs 26:48 and the whole thing ran in the room.</b> The board had planned six
+ minutes. Rockstar titles it <em>An Extended Look</em> and never writes Trailer 3 on the video,
+ so search the title, not the number. The documented price of running it in full was Encanto
+ plus twelve minutes off the build; what actually got traded is recorded on the rundown block.
+ One consequence worth carrying forward: the class now shares all twenty-seven minutes of it,
+ so Session 4 does not need to screen a second of it.</p>
  <p><b>Encanto is a regional official channel</b> (Walt Disney Studios Philippines), not the main
  Disney account. It is official, and it is worth saying so out loud when you play it.</p>
 </div>
